@@ -20,13 +20,13 @@ src/
   SudokuApp.java         # versão console (menu de texto)
   SudokuSwingApp.java    # versão Swing com rascunho (mini-grade 3×3)
 
+## ▶️ Como executar (Console)
 
-
-## ▶️ Executar — Console
-Compile e rode:
+Compile e rode a versão de console:
 ```bash
 javac src/SudokuApp.java
-# exemplos de fixos nos args do main (formato "linha,coluna,valor"):
+java -cp src SudokuApp "1,1,5" "1,2,3" "1,5,7"
+
 java -cp src SudokuApp "1,1,5" "1,2,3" "1,5,7" "2,1,6" "3,4,9"
 
 javac src/SudokuSwingApp.java
