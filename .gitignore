@@ -1,31 +1,21 @@
-# ============================
-# Arquivos do IntelliJ / IDEA
-# ============================
+# IntelliJ IDEA
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# ============================
-# Arquivos de build/output
-# ============================
+# Build/output
 out/
 build/
 target/
 classes/
 
-# ============================
-# Arquivos compilados
-# ============================
+# Compilados
 *.class
 
-# ============================
 # Logs
-# ============================
 *.log
 
-# ============================
-# Arquivos do sistema
-# ============================
-.DS_Store        # macOS
-Thumbs.db        # Windows
+# SO
+.DS_Store
+Thumbs.db
