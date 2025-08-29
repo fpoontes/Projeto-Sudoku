@@ -27,6 +27,19 @@ Compile e rode a versão de console:
 javac src/SudokuApp.java
 java -cp src SudokuApp "1,1,5" "1,2,3" "1,5,7"
 
+## 🔗 Repositórios de referência (DIO)
+- **Branch main (terminal)**: https://github.com/digitalinnovationone/sudoku  
+- **Branch UI (interface gráfica)**: https://github.com/digitalinnovationone/sudoku/tree/ui
+
+> Dica: você pode dar **fork** nesses repositórios para versionar suas evoluções mantendo referência ao original.
+
+## 🧰 Links úteis
+- **Draw.io**: https://app.diagrams.net
+
+## ▶️ Execução com argumentos (formato DIO)
+O projeto também aceita o **formato de argumentos da DIO**:
+
+
 java -cp src SudokuApp "1,1,5" "1,2,3" "1,5,7" "2,1,6" "3,4,9"
 
 javac src/SudokuSwingApp.java
